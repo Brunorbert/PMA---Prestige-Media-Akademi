@@ -1,4 +1,5 @@
-import { Mail, GraduationCap } from 'lucide-react'
+import { Mail } from 'lucide-react'
+import { PrestigeLogo } from '@/components/prestige-logo'
 
 type IconProps = { className?: string }
 
@@ -48,9 +49,7 @@ export function SiteFooter() {
         <div className="flex flex-col items-start justify-between gap-10 md:flex-row">
           <div className="max-w-sm">
             <a href="#" className="flex items-center gap-2.5" aria-label="Prestige Média Akadémia főoldal">
-              <span className="flex size-9 items-center justify-center rounded-xl bg-primary text-primary-foreground">
-                <GraduationCap className="size-5" strokeWidth={2} />
-              </span>
+              <PrestigeLogo compact className="size-9 shrink-0" />
               <span className="text-[15px] font-semibold tracking-tight text-foreground">
                 Prestige Média Akadémia
               </span>

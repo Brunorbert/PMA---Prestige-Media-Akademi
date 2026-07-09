@@ -18,7 +18,7 @@ export function TeachersSection() {
       <div className="mx-auto max-w-6xl px-5 lg:px-8">
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div className="max-w-2xl">
-            <span className="text-sm font-semibold uppercase tracking-[0.14em] text-primary">
+            <span className="text-sm font-semibold uppercase tracking-[0.14em] text-gold">
               Tanáraink
             </span>
             <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground md:text-4xl lg:text-5xl">

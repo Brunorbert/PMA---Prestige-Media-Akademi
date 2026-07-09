@@ -15,7 +15,7 @@ export function HeroSection() {
       <div className="mx-auto max-w-6xl px-5 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-4 py-1.5 text-xs font-medium text-muted-foreground">
-            <Sparkles className="size-3.5 text-primary" />
+            <Sparkles className="size-3.5 text-gold" />
             Modern oktatás a média szakembereitől
           </div>
 
@@ -77,7 +77,7 @@ export function HeroSection() {
             {/* faux player chrome */}
             <div className="absolute inset-x-0 bottom-0 flex items-center gap-3 bg-gradient-to-t from-foreground/10 to-transparent p-5 md:p-6">
               <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-foreground/15">
-                <div className="h-full w-1/3 rounded-full bg-primary" />
+                <div className="h-full w-1/3 rounded-full bg-gold" />
               </div>
               <span className="font-mono text-xs font-medium text-foreground/70">02:14 / 06:40</span>
             </div>

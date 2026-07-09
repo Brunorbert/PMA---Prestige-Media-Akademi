@@ -1,8 +1,9 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { ChevronDown, Menu, X, GraduationCap } from 'lucide-react'
+import { ChevronDown, Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { PrestigeLogo } from '@/components/prestige-logo'
 import { cn } from '@/lib/utils'
 
 const services = [
@@ -51,9 +52,7 @@ export function SiteHeader() {
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:h-18 lg:px-8">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5" aria-label="Prestige Média Akadémia főoldal">
-          <span className="flex size-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm">
-            <GraduationCap className="size-5" strokeWidth={2} />
-          </span>
+          <PrestigeLogo compact className="size-9 shrink-0 shadow-sm" />
           <span className="text-[15px] font-semibold tracking-tight text-foreground">
             Prestige Média Akadémia
           </span>

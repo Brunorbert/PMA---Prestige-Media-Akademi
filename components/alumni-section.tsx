@@ -27,7 +27,7 @@ export function AlumniSection() {
     <section className="py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-5 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="text-sm font-semibold uppercase tracking-[0.14em] text-primary">
+          <span className="text-sm font-semibold uppercase tracking-[0.14em] text-gold">
             Nálunk végzett
           </span>
           <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight text-foreground md:text-4xl lg:text-5xl">
@@ -44,7 +44,7 @@ export function AlumniSection() {
             <li key={name} className="flex items-center gap-3">
               <span
                 aria-hidden="true"
-                className="flex size-11 shrink-0 items-center justify-center rounded-full border border-border bg-accent text-sm font-semibold text-primary"
+                className="flex size-11 shrink-0 items-center justify-center rounded-full border-2 border-gold/40 bg-primary text-sm font-semibold text-primary-foreground"
               >
                 {initials(name)}
               </span>
